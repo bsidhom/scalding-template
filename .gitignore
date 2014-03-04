@@ -1,0 +1,10 @@
+# general
+.*.swp
+*~
+
+# SBT
+target/
+
+# IntelliJ Idea
+/.idea
+/.idea_modules
