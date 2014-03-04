@@ -15,7 +15,7 @@ Running locally
 Fire up SBT and run the main class using Scalding's `Tool`. For example, to
 run the sample application, enter
 ```scala
-runMain com.twitter.scalding.Tool com.organization.WordCount --local --input "README" --output "output.txt"
+runMain com.twitter.scalding.Tool com.organization.WordCount --local --input "README.md" --output "output.txt"
 ```
 
 *Note that to run locally, Hadoop must not be specified as a "provided"
